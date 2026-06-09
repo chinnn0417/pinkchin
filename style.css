@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=LXGW+WenKai+TC&display=swap');
+*{
+/*   border: solid 2px magenta; */
+  font-family: "LXGW WenKai TC", cursive;
+}
+.container{
+  padding-top: 80px;
+}
+.paper{
+  background: rgba(255,255,255,0.5);
+  border-radius: 20px;
+  padding: 20px;
+  margin-top: 20px;
+}
+section{
+  padding-top: 80px;
+  padding-bottom: 50px;
+}
+
+.toTop-arrow {
+width: 2.5rem;
+height: 2.5rem;
+padding: 0;
+margin: 0;
+border: 0;
+border-radius: 33%;
+opacity: 0.6;
+background: #ff73a8;
+cursor: pointer;
+position:fixed;
+right: 1rem;
+bottom: 1rem;
+display: none;
+}
+.toTop-arrow::before, .toTop-arrow::after {
+width: 18px;
+height: 5px;
+border-radius: 3px;
+background: #fff;
+position: absolute;
+content: "";
+}
+.toTop-arrow::before {
+transform: rotate(-45deg) translate(0, -50%);
+left: 0.5rem;
+}
+.toTop-arrow::after {
+transform: rotate(45deg) translate(0, -50%);
+right: 0.5rem;
+}
+.toTop-arrow:focus {outline: none;}
+
+.pinklink{
+  color: #fc498d;
+}
+
+.col-sm-4{
+  padding-bottom: 20px;
+}
